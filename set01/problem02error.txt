@@ -1,0 +1,1 @@
+PS C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem02.c -o problem02.exe
