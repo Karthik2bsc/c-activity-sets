@@ -1,0 +1,3 @@
+Call by reference can be defined as when we change the value of called function in formal arguments, the value of calling function in actual arguments change.
+Changing the contant in address variable, changes the value of called function.
+Changing the contant in called function,changes the value in calling function in CBR.
