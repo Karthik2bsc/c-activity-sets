@@ -11,4 +11,10 @@ What is call by value?
 It refers as we change the value of called function in formal arguments, the value of calling function in actual arguments does not change.
 
 Why are strings & arrays passed by CBV?
-Because they
+Because they store the value by themselves.
+
+Can CBV and CBR be used in same program?
+Yes, it can be used.
+
+How is CBR executed?
+They are executed by pointers and pointer variable.
