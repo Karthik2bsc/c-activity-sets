@@ -1,0 +1,22 @@
+PS C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem12.exe 
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set01\problem12.exe...done.
+(gdb) r
+Starting program: C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set01/.\problem12.exe
+[New Thread 25456.0x56ac]
+[New Thread 25456.0x2250]
+enter n value: 2
+enter the num: 1
+enter the num: 3
+enter the num: 4
+enter the num: 5
+the result will be 5.000000 + 8.000000i[Inferior 1 (process 25456) exited normally]
+(gdb) quit
