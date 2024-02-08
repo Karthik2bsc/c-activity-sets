@@ -1,0 +1,21 @@
+ gdb .\problem04.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set02\problem04.exe...done.
+(gdb) r
+Starting program: C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set02/.\problem04.exe
+[New Thread 11256.0x26c8]
+[New Thread 11256.0x2dbc]
+Enter size: 3
+Enter 3 array: 3
+4
+6
+Sum of Composite numbers are 10[Inferior 1 (process 11256) exited normally]
+(gdb) quit
