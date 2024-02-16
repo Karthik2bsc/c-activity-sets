@@ -4,8 +4,7 @@
 int main()
 {
     int x=2,y=3;
-    int z;
-    z=x+y;
-    printf("Sum is %d",z);
+    int sum=x+y;
+    printf("Sum is %d",sum);
     return 0;
 }
