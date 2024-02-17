@@ -23,5 +23,5 @@ void add(int a, int b, int *sum)
 }
 void output(int a, int b, int sum)
 {
-    printf("sum will be %d",sum);
+    printf("Sum of given numbers will be %d",sum);
 }

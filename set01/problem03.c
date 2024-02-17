@@ -12,10 +12,10 @@ int main()
 }
 int input()
 {
-    int n;
-    printf("Enter the num: ");
-    scanf("%d",&n);
-    return n;
+    int num;
+    printf("Enter the number: ");
+    scanf("%d",&num);
+    return num;
 }
 int add(int a, int b)
 {
