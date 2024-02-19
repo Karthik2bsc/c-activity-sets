@@ -12,11 +12,11 @@ int main()
 }
 int input(int *a, int *b, int *c)
 {
-    printf("enter a num: ");
+    printf("Enter a num: ");
     scanf("%d",a);
-    printf("enter b num: ");
+    printf("Enter b num: ");
     scanf("%d",b);
-    printf("enter c num: ");
+    printf("Enter c num: ");
     scanf("%d",c);
     return 0;
 }
