@@ -12,7 +12,7 @@ int main()
 int input_n()
 {
     int x;
-    printf("enter x value: ");
+    printf("Enter x value: ");
     scanf("%d",&x);
     return x;
 }
@@ -27,5 +27,5 @@ int sum_n_nos(int n)
 }
 void output(int n, int sum)
 {
-    printf("sum till %d will be %d",n,sum);
+    printf("Sum till %d will be %d",n,sum);
 }
