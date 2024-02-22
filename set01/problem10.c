@@ -12,9 +12,9 @@ int main()
 }
 void input_two_strings(char *string1, char *string2)
 {
-    printf("enter the string1: ");
+    printf("Enter the string1: ");
     scanf("%s",string1);
-    printf("enter the string2: ");
+    printf("Enter the string2: ");
     scanf("%s",string2);
 }
 int stringcompare(char *string1, char *string2)

@@ -12,7 +12,7 @@ int main()
 float input()
 {
     float n;
-    printf("enter the num: ");
+    printf("Enter the number: ");
     scanf("%f",&n);
     return n;
 }
@@ -30,5 +30,5 @@ return x;
 }
 void output(float n, float sqrroot)
 {
-    printf("squareroot of %f will be %f",n,sqrroot);
+    printf("Squareroot of %f will be %f",n,sqrroot);
 }
