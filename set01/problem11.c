@@ -19,9 +19,9 @@ int main()
 Complex input_complex()
 {
 	Complex n;
-	printf("enter the num: ");
+	printf("Enter the num: ");
 	scanf("%f",&n.real);
-	printf("enter the num: ");
+	printf("Enter the num: ");
 	scanf("%f",&n.img);
 	return n;
 }
@@ -34,5 +34,5 @@ Complex add_complex(Complex a, Complex b)
 }
 void output(Complex a, Complex b, Complex sum)
 {
-	printf("sum will be %f + %fi",sum.real,sum.img);
+	printf("Sum will be %f + %fi",sum.real,sum.img);
 }

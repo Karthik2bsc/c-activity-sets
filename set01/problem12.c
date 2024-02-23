@@ -22,16 +22,16 @@ int main()
 int get_n()
 {
 	int x;
-	printf("enter n value: ");
+	printf("Enter n value: ");
 	scanf("%d",&x);
 	return x;
 }
 Complex input_complex()
 {
 	Complex n;
-	printf("enter the num: ");
+	printf("Enter the num: ");
 	scanf("%f",&n.real);
-	printf("enter the num: ");
+	printf("Enter the num: ");
 	scanf("%f",&n.img);
 	return n;
 }
@@ -60,5 +60,5 @@ Complex add_n_complex(int n, Complex c[n])
 }
 void output(int n, Complex c[n], Complex result)
 {
-	printf("the result will be %f + %fi",result.real,result.img);
+	printf("The result will be %f + %fi",result.real,result.img);
 }
