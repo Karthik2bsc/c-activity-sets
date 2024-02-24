@@ -13,14 +13,14 @@ int main()
 }
 int input_array_size()
 {
-    int x;
-    printf("Enter size: ");
-    scanf("%d",&x);
-    return x;
+    int num;
+    printf("enter size: ");
+    scanf("%d",&num);
+    return num;
 }
 void input_array(int n, int a[n])
 {
-    printf("Enter %d array: ",n);
+    printf("enter %d array: ",n);
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -48,5 +48,5 @@ int sum_composite_numbers(int n, int a[n]) {
 }
 void output(int sum)
 {
-    printf("Sum of Composite numbers are %d",sum);
+    printf("sum of composite numbers are %d",sum);
 }

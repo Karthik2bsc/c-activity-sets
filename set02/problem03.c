@@ -11,10 +11,10 @@ int main()
 }
 int input_number()
 {
-    int x;
-    printf("enter integer: ");
-    scanf("%d",&x);
-    return x;
+    int num;
+    printf("Enter integer: ");
+    scanf("%d",&num);
+    return num;
 }
 int is_composite(int n)
 {
