@@ -12,10 +12,10 @@ int main()
 }
 int input()
 {
-    int x;
+    int num;
     printf("Enter the digits: ");
-    scanf("%d",&x);
-    return x;
+    scanf("%d",&num);
+    return num;
 }
 int find_gcd(int a, int b)
 {
