@@ -22,22 +22,22 @@ int main()
 int input_n()
 {
     int x;
-    printf("enter no of triangles: ");
+    printf("Enter no of triangles: ");
     scanf("%d",&x);
     return x;
 }
 Triangle input_triangle()
 {
     Triangle y;
-    printf("enter base: ");
+    printf("Enter base: ");
     scanf("%f",&y.base);
-    printf("enter altitude: ");
+    printf("Enter altitude: ");
     scanf("%f",&y.altitude);
     return y;
 }
 void input_n_triangles(int n, Triangle t[n])
 {
-    printf("enter %d triangles:\n",n);
+    printf("Enter %d triangles:\n",n);
     for(int i=0;i<n;i++)
     {
         t[i]=input_triangle();
@@ -67,10 +67,10 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
 }
 void output(int n, Triangle t[n], Triangle smallest)
 {
-    printf("areas of triangles:\n");
+    printf("Areas of triangles:\n");
     for(int i=0;i<n;i++)
     {
         printf("triangle %d: %f\n",i+1,t[i].area);
     }
-    printf("the area of smallest triangle will be %f with base %f and altitude %f",smallest.area,smallest.base,smallest.altitude);
+    printf("The area of smallest triangle will be %f with base %f and altitude %f",smallest.area,smallest.base,smallest.altitude);
 }

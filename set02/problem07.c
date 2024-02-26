@@ -16,9 +16,9 @@ int main()
 Triangle input_triangle()
 {
 	Triangle x;
-	printf("enter base: ");
+	printf("Enter base: ");
 	scanf("%f",&x.base);
-	printf("enter altitude: ");
+	printf("Enter altitude: ");
 	scanf("%f",&x.altitude);
 	return x;
 }
@@ -28,5 +28,5 @@ void find_area(Triangle *t)
 }
 void output(Triangle t)
 {
-	printf("the area of a triangle is %f",t.area);
+	printf("The area of a triangle is %f",t.area);
 }
