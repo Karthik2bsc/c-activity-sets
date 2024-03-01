@@ -13,11 +13,11 @@ int main()
 }
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3)
 {
-    printf("enter coordinates for (x1,y1):\n");
+    printf("Enter coordinates for (x1,y1):\n");
     scanf("%f %f",x1,y1);
-    printf("enter coordinates for (x2,y2):\n");
+    printf("Enter coordinates for (x2,y2):\n");
     scanf("%f %f",x2,y2);
-    printf("enter coordinates for (x3,y3):\n");
+    printf("Enter coordinates for (x3,y3):\n");
     scanf("%f %f",x3,y3);
 }
 int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3)
