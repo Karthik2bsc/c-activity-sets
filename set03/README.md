@@ -111,7 +111,7 @@ void output(int n, int a[n]);
 
 ---
 
-6. Write a program to find the index of a substring of a string
+6. Write a program to find the index of a substring in a string
 
 ***Function Declarations***
 ```c
