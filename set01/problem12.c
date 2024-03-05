@@ -60,5 +60,12 @@ Complex add_n_complex(int n, Complex c[n])
 }
 void output(int n, Complex c[n], Complex result)
 {
-	printf("The result will be %f + %fi",result.real,result.img);
+	for(int i=0;i<n;i++){
+	printf("%f + %fi",c[i].real,c[i].img);
+	if(i<n-1)
+	{
+		printf(" + ");
+	}
+}
+printf(" is %f + %fi",result.real,result.img);
 }

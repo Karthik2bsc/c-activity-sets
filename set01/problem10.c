@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void input_two_strings(char *string1, char *string2);
 int stringcompare(char *string1, char *string2);
 void output(char *string1, char *string2, int result);
@@ -19,20 +20,23 @@ void input_two_strings(char *string1, char *string2)
 }
 int stringcompare(char *string1, char *string2)
 {
-    if(string1>string2)
-    return 0;
-    else if(string1<string2)
-    return 1;
+    for(int i=0; string1[i]!='\0' && string2[i]!='\0';i++)
+    {
+    if(string1[i] > string2[i])
+    {return 0;}
+    else if(string1[i] < string2[i])
+    {return 1;}
     else
-    return 2;
+    {return 2;}
+    }
 }
 void output(char *string1, char *string2, int result)
 {
-    if(result=0)
+    if(result==0)
     {
         printf("%s will be greater than %s",string1,string2);
     }
-    else if(result=1)
+    else if(result==1)
     {
         printf("%s will be greater than %s",string2,string1);
     }
