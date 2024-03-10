@@ -21,17 +21,17 @@ int main(){
 }
 Point input_point(){
     Point p;
-    printf("enter the x part: ");
+    printf("Enter the x part: ");
     scanf("%f",&p.x);
-    printf("enter the y part: ");
+    printf("Enter the y part: ");
     scanf("%f",&p.y);
     return p;
 }
 Line input_line(){
     Line l;
-    printf("enter the line1:\n");
+    printf("Enter the line1:\n");
     l.p1=input_point();
-    printf("enter the line2:\n");
+    printf("Enter the line2:\n");
     l.p2=input_point();
     return l;
 }
@@ -41,5 +41,5 @@ void find_length(Line *l){
     l->distance=sqrt(dx * dx + dy * dy);
 }
 void output(Line l){
-    printf("the distance between (%.2f,%.2f) and (%.2f,%.2f) will be %.2f",l.p1.x,l.p1.y,l.p2.x,l.p2.y,l.distance);
+    printf("The distance between (%.2f,%.2f) and (%.2f,%.2f) will be %.2f",l.p1.x,l.p1.y,l.p2.x,l.p2.y,l.distance);
 }
