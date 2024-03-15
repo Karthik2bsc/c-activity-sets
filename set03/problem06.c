@@ -11,23 +11,37 @@ int main()
     output(string,substring,index);
     return 0;
 }
-void input_string(char* a, char* b)
+void input_string(char *a, char *b)
 {
     printf("enter the a string: ");
     scanf("%s",a);
     printf("enter the b string: ");
     scanf("%s",b);
 }
-int sub_str_index(char* string, char* substring)
+int sub_str_index(char *string, char *substring)
 {
-    char *ptr = strstr(string, substring);
-    if(ptr != NULL)
+    int string_length=0;
+    int substring_length=0;
+    while(string[string_length]!='\0')
+    {string_length++;}
+    while(substring[substring_length]!='\0')
+    {substring_length++;}
+    for(int i=0;i <= string_length - substring_length;i++)
     {
-        return ptr - string;
-    }else
-    {
-        return -1;
+        int j;
+        for(j=0;j < substring_length;j++)
+        {
+            if(string[i+j]!=substring[j])
+            {
+                break;
+            }
+        }
+        if(j == substring_length)
+        {
+            return i;
+        }
     }
+    return -1;
 }
 void output(char *string, char *substring, int index)
 {

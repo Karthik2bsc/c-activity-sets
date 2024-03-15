@@ -1,0 +1,21 @@
+gdb ./a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\WINDOWS.old\Users\jc469\Desktop\c-activity-sets\c-activity-sets\set03/./a.exe
+[New Thread 15064.0x1cc0]
+[New Thread 15064.0x46e4]
+enter the a string: helloworldhello
+enter the b string: world
+string:helloworld♣
+substring:world
+the index for world in helloworld♣ will be 5[Inferior 1 (process 15064) exited normally]
+(gdb) q
