@@ -13,9 +13,9 @@ int main()
 }
 void input_string(char *a, char *b)
 {
-    printf("enter the a string: ");
+    printf("Enter the a string: ");
     scanf("%s",a);
-    printf("enter the b string: ");
+    printf("Enter the b string: ");
     scanf("%s",b);
 }
 int sub_str_index(char *string, char *substring)
@@ -45,10 +45,10 @@ int sub_str_index(char *string, char *substring)
 }
 void output(char *string, char *substring, int index)
 {
-    printf("string:%s",string);
-    printf("\nsubstring:%s",substring);
+    printf("String:%s",string);
+    printf("\nSubstring:%s",substring);
     if(index != -1)
     {
-        printf("\nthe index for %s in %s will be %d",substring,string,index);
+        printf("\nThe index for %s in %s will be %d",substring,string,index);
     }
 }
