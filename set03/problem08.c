@@ -11,22 +11,24 @@ typedef struct polygon {
 } Polygon;
 
 int input_n(){
-    int x=input_n();
-    printf("enter the no of sides of a polygon: ");
+    int x;
+    printf("enter no of sides of a polygon: ");
     scanf("%d",&x);
     return x;
 }
 Point input_point(char *promt_msg){
     Point P;
     for(int i=0;i<=promt_msg;i++){
-    printf("enter the coordinates of point%d",promt_msg);
+    printf("enter the coordinates of point %d",promt_msg);
     scanf("%f %f",P.x,P.y);
     }
     return P;
 }
 int input_polygon(Polygon *p){
     int p;
-    printf("enter the coordinates of point%d");
+    printf("enter no of polygons:\n");
+    scanf("%d",&p);
+    return p;
 }
 float find_distance(Point a, Point b);
 void find_perimeter(Polygon *p);
